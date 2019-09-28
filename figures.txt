@@ -1,0 +1,12 @@
+Figures file
+Circle
+Pink
+10
+0 0
+2
+
+Rectangle
+Yellow
+5
+1 1
+5 5
