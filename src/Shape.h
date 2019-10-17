@@ -11,6 +11,7 @@ private:
     std::string color;
     int lineweight;
 public:
+    virtual ~Shape();
 
     Shape(const std::string &color, int lineweight);
 

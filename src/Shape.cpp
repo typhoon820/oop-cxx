@@ -31,4 +31,6 @@ bool Shape::operator<(const Shape &rhs) const {
     return lineweight < rhs.lineweight;
 }
 
+Shape::~Shape() = default;
+
 

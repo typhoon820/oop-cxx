@@ -38,3 +38,5 @@ Rectangle::Rectangle(std::ifstream &stream) : Shape(stream) {
     this->leftBottomAngle.second = stoi(split(rightTop, ' ')[1]);
     std::getline(stream, rightTop);
 }
+
+Rectangle::~Rectangle() = default;

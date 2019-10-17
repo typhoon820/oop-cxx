@@ -41,10 +41,12 @@ void Figures::print(std::ostream& out) {
     }
 }
 
-const std::vector<Shape *> &Figures::getShapes() const {
+std::vector<Shape *> & Figures::getShapes() {
     return shapes;
 }
 
-void Figures::setShapes(const std::vector<Shape *> &shapes) {
+void Figures::setShapes(std::vector<Shape *> &shapes) {
     Figures::shapes = shapes;
 }
+
+Figures::~Figures() = default;

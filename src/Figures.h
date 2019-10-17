@@ -14,11 +14,13 @@ private:
     std::vector<Shape*> shapes;
     std::string name;
 public:
+    virtual ~Figures();
+
     explicit Figures(const std::string& filePath);
 
-    const std::vector<Shape *> &getShapes() const;
+    std::vector<Shape *> &getShapes();
 
-    void setShapes(const std::vector<Shape *> &shapes);
+    void setShapes(std::vector<Shape *> &shapes);
 
     const std::string &getName() const;
     void setName(const std::string &name);

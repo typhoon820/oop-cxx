@@ -33,3 +33,5 @@ void Circle::draw(std::ostream& out) const {
     std::string output = "I am %s circle of radius %d\n";
     out<< "I am " << this->getColor() << " circle of radius " << this->getRadius() << std::endl;
 }
+
+Circle::~Circle() = default;

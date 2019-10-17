@@ -17,6 +17,8 @@ public:
     Rectangle();
     Rectangle(std::ifstream &);
 
+    virtual ~Rectangle();
+
     const std::pair<int, int> &getLeftBottomAngle() const;
     void setLeftBottomAngle(const std::pair<int, int> &leftBottomAngle);
     const std::pair<int, int> &getRightTopAngle() const;

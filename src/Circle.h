@@ -13,6 +13,8 @@ private:
     std::pair<int, int> center;
     int radius;
 public:
+    virtual ~Circle();
+
     Circle();
 
     Circle(std::ifstream &);

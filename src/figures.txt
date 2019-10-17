@@ -5,6 +5,12 @@ Pink
 0 0
 2
 
+Circle
+Green
+8
+2 2
+5
+
 Rectangle
 Yellow
 5
